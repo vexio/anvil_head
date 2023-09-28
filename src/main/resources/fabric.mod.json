@@ -3,23 +3,26 @@
 	"id": "anvil-heads",
 	"version": "${version}",
 	"name": "Anvil Heads",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Player heads drop on Anvil kill",
 	"authors": [
-		"Me!"
+		"vexio"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/anvil-heads/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.vexio.anvilheads.ExampleMod"
+			"net.vexio.anvilheads.AnvilHeads"
+		],
+		"client": [
+			"net.vexio.anvilheads.AnvilHeadsClient"
 		],
 		"fabric-datagen": [
-			"net.vexio.anvilheads.ExampleModDataGenerator"
+			"net.vexio.anvilheads.AnvilHeadsDataGenerator"
 		]
 	},
 	"mixins": [
