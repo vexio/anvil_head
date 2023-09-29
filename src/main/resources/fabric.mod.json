@@ -8,8 +8,8 @@
 		"vexio"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/anvil_heads",
+		"sources": "https://github.com/vexio/anvil_heads"
 	},
 	"license": "MIT",
 	"icon": "assets/anvil-heads/icon.png",
@@ -17,12 +17,6 @@
 	"entrypoints": {
 		"main": [
 			"net.vexio.anvilheads.AnvilHeads"
-		],
-		"client": [
-			"net.vexio.anvilheads.AnvilHeadsClient"
-		],
-		"fabric-datagen": [
-			"net.vexio.anvilheads.AnvilHeadsDataGenerator"
 		]
 	},
 	"mixins": [
